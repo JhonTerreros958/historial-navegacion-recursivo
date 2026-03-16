@@ -21,7 +21,7 @@ def retroceder(historial, pasos):
 
 
 #Historial
-mi_navegacion = [
+historial = [
     "google.com",
     "uniminuto.edu",
     "Error 404: Campus Virtual",
@@ -32,6 +32,6 @@ mi_navegacion = [
 #Número de pasos a retroceder
 pasos = 4
 
-resultado = retroceder(mi_navegacion, pasos)
+resultado = retroceder(historial, pasos)
 
 print("Historial final:", resultado)
